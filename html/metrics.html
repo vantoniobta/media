@@ -1,0 +1,398 @@
+<div class="mk-header md-padding md-whiteframe-z3" style="background-image: url(img/bg-yellow.jpg);">
+    <div class="col-md-1"></div>
+    <div class="col-md-6" layout="column" layout-align="center start" layout-fill>
+        <div class="md-display-2" hide-gt-sm><b>MÉTRICAS</b></div>
+        <div class="md-display-3" hide-sm><b>MÉTRICAS</b></div>
+        <p class="md-display-1">Diciembre 2016</p>
+    </div>
+    <div class="col-md-4 hidden-sm hidden-xs mk-header-image" layout="column" layout-align="center center" style="background-image: url(img/Dispositivos2.png);"></div>
+    <div class="col-md-1"></div>
+</div>
+
+<!-- Multimedios digital -->
+<div class="container md-padding">
+	<div class="mk-metrics-headline md-display-1 md-padding">Multimedios.com</div>
+	<div class="row">
+		<div class="col-sm-6 col-md-3">
+
+			<div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
+				<md-icon>person</md-icon>
+				<div flex layout="column" layout-align="center end">
+					<span class="md-headline">{{data.stats.multimedios.uniqueusers}}</span>
+					<span class="md-body">Usuarios únicos</span>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-sm-6 col-md-3">
+
+			<div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
+				<md-icon>input</md-icon>
+				<div flex layout="column" layout-align="center end">
+					<span class="md-headline">{{data.stats.multimedios.visits}}</span>
+					<span class="md-body">Visitas</span>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-sm-6 col-md-3">
+			<div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
+				<md-icon>web</md-icon>
+				<div flex layout="column" layout-align="center end">
+					<span class="md-headline">{{data.stats.multimedios.pageviews}}</span>
+					<span class="md-body">Páginas vistas</span>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-sm-6 col-md-3">
+
+			<div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
+				<md-icon>timer</md-icon>
+				<div flex layout="column" layout-align="center end">
+					<span class="md-headline">{{data.stats.multimedios.time}}</span>
+					<span class="md-body">Tiempo promedio</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="container source-bar" layout="row" layout-align="center center">
+    <hr flex>
+	<img style="max-height: 20px; margin-left: 1rem;" ng-src="http://margari.net/digitalmarketing/wp-content/uploads/sites/4/2014/02/ga-3.png" alt="">
+</div>
+
+<!-- Apps -->
+<div class="container md-padding">
+	<div class="mk-metrics-headline md-display-1 md-padding center-text">Applicaciones móviles</div>
+	<div class="row">
+		<div class="col-sm-6 col-md-3">
+			<div class="mk-metric mk-metric-black md-padding" layout="row" layout-align="center">
+				<md-icon>person</md-icon>
+				<div flex layout="column" layout-align="center end">
+					<span class="md-headline">{{data.stats.app.uniqueusers}}</span>
+					<span class="md-body">Usuarios únicos</span>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-sm-6 col-md-3">
+
+			<div class="mk-metric mk-metric-black md-padding" layout="row" layout-align="center">
+				<md-icon>input</md-icon>
+				<div flex layout="column" layout-align="center end">
+					<span class="md-headline">{{data.stats.app.visits}}</span>
+					<span class="md-body">Visitas</span>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-sm-6 col-md-3">
+
+			<div class="mk-metric mk-metric-black md-padding" layout="row" layout-align="center">
+				<md-icon>web</md-icon>
+				<div flex layout="column" layout-align="center end">
+					<span class="md-headline">{{data.stats.app.pageviews}}</span>
+					<span class="md-body">Páginas vistas</span>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-sm-6 col-md-3">
+
+			<div class="mk-metric mk-metric-black md-padding" layout="row" layout-align="center">
+				<md-icon>timer</md-icon>
+				<div flex layout="column" layout-align="center end">
+					<span class="md-headline">{{data.stats.app.time}}</span>
+					<span class="md-body">Tiempo promedio</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="container source-bar" layout="row" layout-align="center center">
+    <hr flex>
+	<img style="max-height: 20px; margin-left: 1rem;" ng-src="http://margari.net/digitalmarketing/wp-content/uploads/sites/4/2014/02/ga-3.png" alt="">
+</div>
+
+<!-- Stats 1 -->
+<div class="container" style="margin-top: 1rem;">
+
+	<div class="row">
+
+		<!-- Contenido multimedia -->
+		<div class="col-md-6">
+			<div class="mk-well clearfix">
+				<div class="mk-metrics-headline md-display-1 md-padding center-text">Contenido multimedia</div>
+
+				<div class="mk-metric mk-metric-multimedia col-sm-6">
+                    <div layout="row" layout-align="center center">
+    					<div class="icon">
+    						<md-icon style="color: #666">live_tv</md-icon>
+    					</div>
+    					<div class="stat">
+    						<div class="md-headline" style="color: #333">{{data.stats.multimedia.tv}}</div>
+    						<div class="md-body" style="text-align: left">Televidentes digital</div>
+    					</div>
+                    </div>
+				</div>
+
+				<div class="mk-metric mk-metric-multimedia col-sm-6">
+                    <div layout="row" layout-align="center center">
+    					<div class="icon">
+    						<md-icon style="color: #666">ondemand_video</md-icon>
+    					</div>
+    					<div class="stat">
+    						<div class="md-headline" style="color: #333">{{data.stats.multimedia.vod}}</div>
+    						<div class="md-body" style="text-align: left">Visitas de video (VOD)</div>
+    					</div>
+                    </div>
+				</div>
+
+				<div class="mk-metric mk-metric-multimedia col-sm-6">
+                    <div layout="row" layout-align="center center">
+    					<div class="icon">
+    						<md-icon style="color: #666">timer</md-icon>
+    					</div>
+    					<div class="stat">
+    						<div class="md-headline" style="color: #333">{{data.stats.multimedia.time}}</div>
+    						<div class="md-body" style="text-align: left">Tiempo de visitas</div>
+    					</div>
+                    </div>
+				</div>
+
+				<div class="mk-metric mk-metric-multimedia col-sm-6">
+                    <div layout="row" layout-align="center center">
+    					<div class="icon">
+    						<md-icon style="color: #666">subscriptions</md-icon>
+    					</div>
+    					<div class="stat">
+    						<div class="md-headline" style="color: #333">{{data.stats.multimedia.youtube}}</div>
+    						<div class="md-body" style="text-align: left">Videos vistos en youtube</div>
+    					</div>
+                    </div>
+				</div>
+
+			</div>
+
+            <div class="container source-bar" layout="row" layout-align="center center" style="margin-top: -1rem;">
+                <hr flex>
+                <img style="max-height: 20px; margin-left: 1rem;" ng-src="http://docs.brightcove.com/en/images/vc-bolt-logo-web.png" alt="">
+            	<img style="max-height: 20px; margin-left: 1rem;" ng-src="https://upload.wikimedia.org/wikipedia/commons/0/06/YouTube_logo_2013.svg" alt="">
+            </div>
+
+		</div>
+
+		<!-- Género -->
+		<div class="col-md-6">
+			<div class="mk-well">
+				<div class="mk-metrics-headline md-display-1 md-padding center-text">Género</div>
+
+				<div class="mk-metric mk-metric-multimedia">
+                    <div layout="row" layout-align="center center">
+    					<div class="col-xs-6 col-sm-3">
+    						<span class="md-headline">{{data.stats.gender.male.name}}</span>
+    					</div>
+    					<div class="hidden-xs col-sm-7 md-padding">
+    						<md-progress-linear md-mode="determinate" value="{{data.stats.gender.male.value}}"></md-progress-linear>
+    					</div>
+    					<div class="col-xs-6 col-sm-2 right">
+    						<span class="md-headline">{{data.stats.gender.male.value}}%</span>
+    					</div>
+                    </div>
+				</div>
+				<div class="visible-xs md-padding">
+					<md-progress-linear md-mode="determinate" value="{{data.stats.gender.male.value}}"></md-progress-linear>
+				</div>
+
+				<div class="mk-metric mk-metric-multimedia">
+                    <div layout="row" layout-align="center center">
+    					<div class="col-xs-6 col-sm-3">
+    						<span class="md-headline">{{data.stats.gender.female.name}}</span>
+    					</div>
+    					<div class="hidden-xs col-sm-7 md-padding">
+    						<md-progress-linear md-mode="determinate" value="{{data.stats.gender.female.value}}"></md-progress-linear>
+    					</div>
+    					<div class="col-xs-6 col-sm-2 right">
+    						<span class="md-headline">{{data.stats.gender.female.value}}%</span>
+    					</div>
+                    </div>
+				</div>
+				<div class="visible-xs md-padding">
+					<md-progress-linear md-mode="determinate" value="{{data.stats.gender.female.value}}"></md-progress-linear>
+				</div>
+
+			</div>
+
+            <div class="container source-bar" layout="row" layout-align="center center" style="margin-top: -1rem;">
+                <hr flex>
+            	<img style="max-height: 20px; margin-left: 1rem;" ng-src="http://photos.prnewswire.com/prnfull/20080115/COMSCORELOGO" alt="">
+            </div>
+
+		</div>
+
+	</div>
+</div>
+
+
+<!-- Stats 2 -->
+<div class="container">
+
+	<div class="row">
+
+		<!-- Edad -->
+		<div class="col-md-6">
+			<div class="mk-well clearfix">
+				<div class="mk-metrics-headline md-display-1 md-padding center-text">Edad</div>
+
+				<div class="md-padding clearfix" ng-repeat="age in data.stats.age" style="padding-top: 0;">
+					<div class="mk-metric mk-metric-small">
+						<div class="col-xs-6 col-sm-2 col-md-3">
+							<span class="md-headline">{{age.name}}</span>
+						</div>
+						<div class="hidden-xs col-sm-8 col-md-7 md-padding">
+							<md-progress-linear class="yellow" md-mode="determinate" value="{{age.value}}"></md-progress-linear>
+						</div>
+						<div class="col-xs-6 col-sm-2 right">
+							<span class="md-headline">{{age.value}}%</span>
+						</div>
+					</div>
+					<div class="visible-xs mk-metric-small-progress">
+						<md-progress-linear class="yellow" md-mode="determinate" value="{{age.value}}"></md-progress-linear>
+					</div>
+				</div>
+			</div>
+
+            <div class="container source-bar" layout="row" layout-align="center center" style="margin-top: -2.5rem; margin-bottom: 2rem;">
+                <hr flex>
+                <img style="max-height: 20px; margin-left: 1rem;" ng-src="http://photos.prnewswire.com/prnfull/20080115/COMSCORELOGO" alt="">
+            </div>
+		</div>
+
+		<!--Tendencia-->
+		<div class="col-md-6 hidden-sm" style="padding-top: 3rem;">
+			<div class="mk-metrics-headline md-display-1 md-padding center-text">Tendencia de usuarios únicos</div>
+			<div class="md-padding">
+				<canvas class="chart chart-line" chart-data="data.stats.trend.data" chart-labels="data.stats.trend.labels" chart-legend="true" chart-series="data.stats.trend.series"></canvas>
+			</div>
+
+            <div class="container source-bar" layout="row" layout-align="center center" style="margin-top: -1rem; margin-bottom: 2rem;">
+                <hr flex>
+                <img style="max-height: 20px; margin-left: 1rem;" ng-src="http://photos.prnewswire.com/prnfull/20080115/COMSCORELOGO" alt="">
+            </div>
+		</div>
+
+	</div>
+</div>
+
+<!-- Stats 3 -->
+<div class="container" >
+
+	<div class="row">
+		<!--Redes sociales-->
+		<div class="col-sm-6"> 
+			<div class="mk-metrics-headline md-display-1 md-padding center-text">Redes sociales</div>
+			<div class="md-padding"  >
+				 <div id="ax" style="width: 750px; height: 500px;"></div>
+				<!--  <div id="bx" style="width: 600px; height: 450px; "></div> -->
+			</div>
+		</div>
+            <div class="container source-bar" layout="row" layout-align="center center">
+                <hr flex>
+            	<img style="max-height: 20px; margin-left: 1rem;" ng-src="http://margari.net/digitalmarketing/wp-content/uploads/sites/4/2014/02/ga-3.png" alt="">
+            </div>
+		</div>
+
+	</div>
+</div>
+
+<!-- Stats 4 -->
+<div class="container">
+
+	<div class="row">
+
+		<!-- Pais -->
+		<div class="col-sm-6" >
+			<div class="mk-metrics-headline md-display-1 md-padding center-text">País</div>
+			<div class="md-padding" id="pais" style="width: 800px; height: 450px;">
+				
+			</div>
+					<!-- <canvas class="chart chart-doughnut" chart-data="data.stats.country.data" chart-labels="data.stats.country.labels" chart-legend="true"></canvas> -->
+						<!-- <div id="piechart" style="width: 750px; height: 450px;"></div> -->
+			</div>
+
+            <div class="container source-bar" layout="row" layout-align="center center">
+                <hr flex>
+            	<img style="max-height: 20px; margin-left: 1rem;" ng-src="http://margari.net/digitalmarketing/wp-content/uploads/sites/4/2014/02/ga-3.png" alt="">
+            </div>
+		</div>
+
+	</div>
+</div>
+
+
+<!-- Stats 5 -->
+<div class="container">
+
+	<div class="row">
+
+		<!--Tendencia-->
+		<div class="col-sm-6 visible-sm">
+			<div class="mk-metrics-headline md-display-1 md-padding center-text">Tendencia</div>
+			<div class="md-padding">
+				<canvas class="chart chart-line" chart-data="data.stats.trend.data" chart-labels="data.stats.trend.labels" chart-legend="true" chart-series="data.stats.trend.series"></canvas>
+			</div>
+
+            <div class="container source-bar" layout="row" layout-align="center center" style="margin-top: -4rem; margin-bottom: 2rem;">
+                <hr flex>
+                <img style="max-height: 20px; margin-left: 1rem;" ng-src="http://photos.prnewswire.com/prnfull/20080115/COMSCORELOGO" alt="">
+            </div>
+		</div>
+
+
+
+
+
+		<!--Región-->
+		<div class="col-sm-6">
+			<div class="mk-metrics-headline md-display-1 md-padding center-text">Región</div>
+			 <div class="md-padding" id="piechart" style="width: 800px; height: 450px;">	
+			  </div>
+            <div class="container source-bar" layout="row" layout-align="center center" style="margin-bottom: 2rem;">
+                <hr flex>
+            	<img style="max-height: 20px; margin-left: 1rem;" ng-src="http://margari.net/digitalmarketing/wp-content/uploads/sites/4/2014/02/ga-3.png" alt="">
+            </div>
+		</div>
+
+
+
+
+	</div>
+</div>
+
+<div class="md-padding mk-strip" layout="row" style="color: #fff; padding: 0; cursor: pointer;">
+		<div layout="row" flex="50" layout-align="center start" style="background-color: #333;  padding: 2rem 1rem;" ng-click="go('/')" hide-sm>
+				<div layout-align="center center" style="margin-right: 1rem; padding-top: 1.5rem;">
+					<md-icon style="color: #ccc;">arrow_back</md-icon>
+				</div>
+				<div layout="column" layout-align="center start">
+					<div class="md-subhead">Anterior</div>
+					<div class="md-title">Inicio</div>
+				</div>
+				<div flex></div>
+		</div>
+		<div layout="row" flex="100" flex-gt-sm="50" layout-align="center end" style="background-color: #eee; color: #333;  padding: 2rem 1rem;" ng-click="go('/web')">
+				<div flex></div>
+				<div layout="column" layout-align="center end">
+					<div class="md-subhead">Siguiente</div>
+					<div class="md-title">Plataformas: Web</div>
+				</div>
+				<div layout-align="center center" style="margin-left: 1rem;">
+					<md-icon style="color: #666;">arrow_forward</md-icon>
+				</div>
+		</div>
+</div>

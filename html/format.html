@@ -1,0 +1,31 @@
+<div class="formatDialog">
+	<md-toolbar class="md-warn" style="background-color: {{color}}">
+		<div class="md-toolbar-tools">
+			<h2 flex>{{format.name}}</h2>
+			<md-button ng-click="cancel()" class="md-icon-button">
+				<md-icon>clear</md-icon>
+			</md-button>
+		</div>
+	</md-toolbar>
+	<div>
+		<div class="col-sm-5 md-padding">
+			<p ng-show="format.size"><b>Dimensiones:</b> {{format.size}}</p>
+			<p ng-show="format.filesize"><b>Tamaño máximo del archivo:</b> {{format.filesize}}</p>
+			<p ng-show="format.fileformat"><b>Tipo de archivo:</b> {{format.fileformat}}</p>
+			<p ng-show="format.duration"><b>Duración:</b> {{format.duration}}</p>
+			<p ng-show="format.accepts"><b>Acepta:</b> {{format.accepts}}</p>
+			<p ng-show="format.comments">{{format.comments}}</p>
+			<md-button class="md-accent" ng-show="format.html5" ng-click="openDemo('./file/HTML5_Multimedios.pdf')">
+				<md-icon>file_download</md-icon>
+				Especificaciones HTML5
+			</md-button>
+		</div>
+		<div class="md-padding col-sm-7 text-center">
+			<img ng-src="img/formats/{{format.img}}" alt="" style="max-height: 300px;" />
+			<md-button class="md-accent" ng-show="format.demo" ng-click="openDemo(format.demo)">
+				<md-icon>open_in_new</md-icon>
+				Ver demo
+			</md-button>
+		</div>
+	</div>
+</div>
